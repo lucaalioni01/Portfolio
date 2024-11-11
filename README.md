@@ -8,5 +8,5 @@ HTML: para estructurar el contenido de las páginas.
 CSS: para dar estilo y diseño visual al portafolio.
 JavaScript: para agregar interactividad y algunas funcionalidades que mejoran la navegación y usabilidad del sitio.
 
-#Figma 
+#Figma
   https://www.figma.com/design/ob9nlhv0dj7oHYFQUt00re/Mi-Sitio?node-id=0-1&t=HPITBmAj4akZJmnR-1
