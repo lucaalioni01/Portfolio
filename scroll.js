@@ -1,16 +1,15 @@
-// Seleccionamos el botón por su ID
-const scrollToTop = document.getElementById("scrollToTop");
+const scrollToTop = document.getElementById("scrollToTop");//selecciona el elemno del html
 
-// Mostrar el botón cuando el usuario baja 200 píxeles
+//Muestra el boton cuando se baja más de 200px, el .body es para navegadores viejos y el .documentElement es para modernos
 window.onscroll = function() {
     if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-        scrollToTop.style.display = "block";
+        scrollToTop.style.display = "block";// si baja 200px se muestra el boton
     } else {
-        scrollToTop.style.display = "none";
+        scrollToTop.style.display = "none";// si todavia no esta en los 200px lo oculta
     }
 };
 
-// Función para volver al principio al hacer clic en el botón
+//se ejecuta el evento click y toma la funcion de arriba
 scrollToTop.addEventListener("click", function() {
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    window.scrollTo({ top: 0, behavior: "smooth" });//window.scrollTo para ir a la parte superior de la pantalla el top:0 indica el comienzo y smooth para que sea suave.
 });
